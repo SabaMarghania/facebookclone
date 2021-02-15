@@ -1,0 +1,34 @@
+.CartPage{
+    object-fit: contain;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+.CartPage__info{
+    padding-left: 15px;
+}
+.CartPage img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.btn_remove{
+    margin-top: 6px;
+    width: 210px;
+    height: 25px;
+    background-color: #b1be35;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+.CartPage__title h2{
+    max-width: 450px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500; 
+}
+.CartPage__available h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+}

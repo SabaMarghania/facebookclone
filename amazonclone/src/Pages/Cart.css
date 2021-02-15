@@ -1,0 +1,24 @@
+.cart{
+    position: relative;
+}
+.cart img{
+    width: 100%;
+    margin: 58px 0;
+}
+.empty__basket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.empty__basket h1{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+}
+.empty__basket p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+    width: 60%;
+    font-size: 17px;
+}

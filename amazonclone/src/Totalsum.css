@@ -1,0 +1,29 @@
+.Totalsum{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 350px;
+    height: 200px;
+    margin-right: 80px;
+    background-color: rgb(206, 206, 206);
+    padding: 20px;
+}
+.Totalsum h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.Totasum__items{
+    display: flex;
+    flex-direction: column;
+}
+.Totalsum__gift{
+    margin-top: 10px;
+}
+.Totalsum__btn{
+    margin-top: 15px;
+    padding: 6px;
+    background-color: rgb(209, 163, 47);
+    color: #fff;
+    outline: none;
+    border: none;
+}

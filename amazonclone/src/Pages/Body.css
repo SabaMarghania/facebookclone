@@ -1,0 +1,10 @@
+.body__bg img{
+    z-index: -1;
+    width: 100%;
+    margin: 15px 0;
+}
+.body__bg {
+    position: relative;
+    height: 40vh;
+    top:55px;
+}
