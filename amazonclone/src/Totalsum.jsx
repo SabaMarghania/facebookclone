@@ -12,7 +12,6 @@ function Totalsum() {
         renderText={(value) => (
           <>
             <p>
-              {/* Part of the homework */}
               Subtotal ({basket.length} items): <strong>{value}</strong>
             </p>
             <small className="Totalsum__gift">
@@ -21,7 +20,7 @@ function Totalsum() {
           </>
         )}
         decimalScale={2}
-        value={totalAmount(basket)} // Part of the homework
+        value={totalAmount(basket)} 
         displayType={"text"}
         thousandSeparator={true}
         prefix={"$"}
