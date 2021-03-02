@@ -6,18 +6,15 @@ import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import NearMeIcon from '@material-ui/icons/NearMe';
 import { ExpandMoreOutlined } from '@material-ui/icons';
-import firebase,{db} from './firebase'
-import { useStateValue } from '../StateProvider';
 
-function MakePost({message,image,timestamp}) {
-  const[{user},dispatch] = useStateValue();
+function MakePost({ profile, image, name, timestamp, message}) {
   
     return (
         <div className="MakePost">
       <div className="MakePost__top">
-        <Avatar src={user.photoURL} className="MakePost__avatar" />
+        <Avatar src={profile} className="MakePost__avatar" />
         <div className="MakePost__topInfo">
-          <h3>{user.displayName}</h3>
+          <h3>{name}</h3>
           <p>{new Date(timestamp?.toDate()).toUTCString()}</p>
         </div>
       </div>

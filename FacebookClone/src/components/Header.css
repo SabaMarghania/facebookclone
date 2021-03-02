@@ -57,6 +57,7 @@
 .header__profile{
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 .s{
     color: black;
@@ -113,4 +114,34 @@
 .MuiSvgIcon-root{
     color:rgb(138, 136, 136)
 
+}
+.Chat{
+    padding: 10px;
+    overflow: hidden;
+}
+.Chat__Top{
+    display: flex;
+    align-items: center;
+}
+.Chat__Top p{
+    margin-left: 7px;
+    font-size: 15px;
+}
+.Chat__messages{
+    width: 100%;
+    height: 53vh;
+    overflow-x: hidden;
+}
+.Chat__form{
+    align-items: center;
+}
+form input{
+    width: 220px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-left: 20px;
+    background-color: #dddcdc;
 }

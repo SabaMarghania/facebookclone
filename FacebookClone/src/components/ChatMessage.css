@@ -1,0 +1,17 @@
+.ChatMessage{
+    margin: 15px 5px;
+}
+.Chatmessage__profile{
+    display: flex;
+    align-items: center;
+}
+.Chatmessage__profile p{
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    height: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 15px;
+    font-size: 15px;
+}

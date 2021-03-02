@@ -48,6 +48,7 @@
   
   .MakePost__bottom {
     padding: 0 10px;
+    word-break: break-word;
   }
  .MakePost__image {
     margin-top:10px;

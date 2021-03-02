@@ -20,3 +20,9 @@ export const initialState = {
   };
   
   export default reducer;
+
+//   image
+// message
+// name
+// profile
+// timestamp
