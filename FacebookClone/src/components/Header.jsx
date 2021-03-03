@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React, { useState,useEffect, useRef } from 'react'
 import './Header.css'
 import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from '@material-ui/icons/Home';
@@ -18,21 +18,29 @@ import ChatMessage from './ChatMessage';
 import db from './firebase'
 import fb from '../images/download.png'
 import firebase from 'firebase'
+
 function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const[messages,setMessages] =useState([])
 //   ************************
   const [inputmsg, setInputmsg] = useState('');
   const[{user},dispatch] = useStateValue();
-  
+ 
+  //   ************************
+  const handleAnswerChange =(e)=>{
+    e.preventDefault();
+		if(e.key === 'Enter'){
+			console.log('The sky is your starting point!');
+	}}
   const handleMsg =(e)=>{
       e.preventDefault();
       db.collection('messages').add({
           timestamp: firebase.firestore.FieldValue.serverTimestamp(),
           message: inputmsg,
           profile: user.photoURL,
+          username: user.displayName,
         })
-        
+      
         setInputmsg('');
   }
 
@@ -41,7 +49,11 @@ function Header() {
     db.collection('messages').orderBy('timestamp', 'asc').onSnapshot(snapshot => {
       setMessages(snapshot.docs.map(doc => ({ id: doc.id, data: doc.data()})))
     })
+  
   }, [])
+  //   ************************
+
+
     return (
         <div className="header">
             <div className="header__left">
@@ -100,22 +112,23 @@ function Header() {
                     <Avatar style={{width:30,height:30}} src={user.photoURL}/>
                     <p>{user.displayName}</p>  
                 </div>
-                <div className="Chat__messages">
+                <div className="Chat__messages"  >
                 {messages.map((message) => (
                  <ChatMessage
-                  key={message.data.id}
+                  key={message.id}
                   profile={message.data.profile}
                   messages={message.data.message}
                   timestamp={message.data.timestamp}
-                //   image={message.data.image}
+                  username={message.data.username}
       />
       ))}
+  
                 </div>
-                        <form className='Chat__form'>
+                        <form onSubmit={handleMsg} className='Chat__form'>
                             <input 
                             value={inputmsg}
                             onChange={(e)=>setInputmsg(e.target.value)} type='text' placeholder='Aa'/>
-                            <SendIcon onClick={handleMsg} style={{color:'#095fcf',marginRight:20}}/>
+                            <SendIcon onClick={handleMsg}  style={{color:'#095fcf',marginRight:20}}/>
                         </form>
             </div>
         </Modal>

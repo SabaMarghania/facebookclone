@@ -20,7 +20,7 @@ function Feed() {
         <Posts/>
         {posts.map(post => (
       <MakePost
-      key={post.data.id}
+      key={post.id}
       profile={post.data.profile}
       message={post.data.message}
       timestamp={post.data.timestamp}

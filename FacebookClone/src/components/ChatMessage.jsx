@@ -1,17 +1,23 @@
-import React from 'react'
+import React, { useState,useEffect, useRef } from 'react'
 import {Avatar} from '@material-ui/core'
-import {useStateValue} from '../StateProvider'
-// import db from './firebase'
 import './ChatMessage.css'
-function ChatMessage({timestamp,messages,profile}) {
-    const [{user}] = useStateValue();
-
+function ChatMessage({username,messages,profile}) {
+    const messagesEndRef = useRef(null);
+    const scrollToBottom = () => {
+      messagesEndRef.current.scrollIntoView({ behavior: "smooth" });
+    };
+    useEffect(scrollToBottom, [messages]);
+  
     return (
         <div className="ChatMessage" >
             <div className="Chatmessage__profile">
                 <Avatar style={{width:30,height:30}} src={profile}/>
-                {/* <p >{new Date(timestamp?.toDate()).toUTCString()}</p> */}
+                <div className='Chatmessage__info'>
+                <h4 className='Chatmessage__text'>{username}</h4>
                 <p>{messages}</p>
+                <div ref={messagesEndRef} />
+
+             </div>
             </div>
         </div>
     )
