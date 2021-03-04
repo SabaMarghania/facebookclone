@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/facebookclone/static/css/main.b41b104d.chunk.css",
-    "main.js": "/facebookclone/static/js/main.bccd3ff0.chunk.js",
-    "main.js.map": "/facebookclone/static/js/main.bccd3ff0.chunk.js.map",
-    "runtime-main.js": "/facebookclone/static/js/runtime-main.78a6d5ef.js",
-    "runtime-main.js.map": "/facebookclone/static/js/runtime-main.78a6d5ef.js.map",
-    "static/js/2.d8641cbf.chunk.js": "/facebookclone/static/js/2.d8641cbf.chunk.js",
-    "static/js/2.d8641cbf.chunk.js.map": "/facebookclone/static/js/2.d8641cbf.chunk.js.map",
-    "static/js/3.8ca98f71.chunk.js": "/facebookclone/static/js/3.8ca98f71.chunk.js",
-    "static/js/3.8ca98f71.chunk.js.map": "/facebookclone/static/js/3.8ca98f71.chunk.js.map",
-    "index.html": "/facebookclone/index.html",
-    "static/css/main.b41b104d.chunk.css.map": "/facebookclone/static/css/main.b41b104d.chunk.css.map",
-    "static/js/2.d8641cbf.chunk.js.LICENSE.txt": "/facebookclone/static/js/2.d8641cbf.chunk.js.LICENSE.txt"
+    "main.css": "/amazonclone/static/css/main.4d3050fa.chunk.css",
+    "main.js": "/amazonclone/static/js/main.b26a198d.chunk.js",
+    "main.js.map": "/amazonclone/static/js/main.b26a198d.chunk.js.map",
+    "runtime-main.js": "/amazonclone/static/js/runtime-main.b8b4a68c.js",
+    "runtime-main.js.map": "/amazonclone/static/js/runtime-main.b8b4a68c.js.map",
+    "static/css/2.615abbca.chunk.css": "/amazonclone/static/css/2.615abbca.chunk.css",
+    "static/js/2.97c41fb5.chunk.js": "/amazonclone/static/js/2.97c41fb5.chunk.js",
+    "static/js/2.97c41fb5.chunk.js.map": "/amazonclone/static/js/2.97c41fb5.chunk.js.map",
+    "index.html": "/amazonclone/index.html",
+    "static/css/2.615abbca.chunk.css.map": "/amazonclone/static/css/2.615abbca.chunk.css.map",
+    "static/css/main.4d3050fa.chunk.css.map": "/amazonclone/static/css/main.4d3050fa.chunk.css.map",
+    "static/js/2.97c41fb5.chunk.js.LICENSE.txt": "/amazonclone/static/js/2.97c41fb5.chunk.js.LICENSE.txt",
+    "static/media/ad.c6e624e2.jpg": "/amazonclone/static/media/ad.c6e624e2.jpg",
+    "static/media/amazonlogo.93048336.png": "/amazonclone/static/media/amazonlogo.93048336.png",
+    "static/media/body-bg.18921740.jpg": "/amazonclone/static/media/body-bg.18921740.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.78a6d5ef.js",
-    "static/js/2.d8641cbf.chunk.js",
-    "static/css/main.b41b104d.chunk.css",
-    "static/js/main.bccd3ff0.chunk.js"
+    "static/js/runtime-main.b8b4a68c.js",
+    "static/css/2.615abbca.chunk.css",
+    "static/js/2.97c41fb5.chunk.js",
+    "static/css/main.4d3050fa.chunk.css",
+    "static/js/main.b26a198d.chunk.js"
   ]
 }
