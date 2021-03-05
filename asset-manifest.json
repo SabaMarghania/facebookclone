@@ -1,26 +1,22 @@
 {
   "files": {
-    "main.css": "/amazonclone/static/css/main.4d3050fa.chunk.css",
-    "main.js": "/amazonclone/static/js/main.b26a198d.chunk.js",
-    "main.js.map": "/amazonclone/static/js/main.b26a198d.chunk.js.map",
-    "runtime-main.js": "/amazonclone/static/js/runtime-main.b8b4a68c.js",
-    "runtime-main.js.map": "/amazonclone/static/js/runtime-main.b8b4a68c.js.map",
-    "static/css/2.615abbca.chunk.css": "/amazonclone/static/css/2.615abbca.chunk.css",
-    "static/js/2.97c41fb5.chunk.js": "/amazonclone/static/js/2.97c41fb5.chunk.js",
-    "static/js/2.97c41fb5.chunk.js.map": "/amazonclone/static/js/2.97c41fb5.chunk.js.map",
-    "index.html": "/amazonclone/index.html",
-    "static/css/2.615abbca.chunk.css.map": "/amazonclone/static/css/2.615abbca.chunk.css.map",
-    "static/css/main.4d3050fa.chunk.css.map": "/amazonclone/static/css/main.4d3050fa.chunk.css.map",
-    "static/js/2.97c41fb5.chunk.js.LICENSE.txt": "/amazonclone/static/js/2.97c41fb5.chunk.js.LICENSE.txt",
-    "static/media/ad.c6e624e2.jpg": "/amazonclone/static/media/ad.c6e624e2.jpg",
-    "static/media/amazonlogo.93048336.png": "/amazonclone/static/media/amazonlogo.93048336.png",
-    "static/media/body-bg.18921740.jpg": "/amazonclone/static/media/body-bg.18921740.jpg"
+    "main.css": "/facebookClone/static/css/main.292a8af8.chunk.css",
+    "main.js": "/facebookClone/static/js/main.dfd4c12f.chunk.js",
+    "main.js.map": "/facebookClone/static/js/main.dfd4c12f.chunk.js.map",
+    "runtime-main.js": "/facebookClone/static/js/runtime-main.08722042.js",
+    "runtime-main.js.map": "/facebookClone/static/js/runtime-main.08722042.js.map",
+    "static/js/2.aae9273b.chunk.js": "/facebookClone/static/js/2.aae9273b.chunk.js",
+    "static/js/2.aae9273b.chunk.js.map": "/facebookClone/static/js/2.aae9273b.chunk.js.map",
+    "static/js/3.038e0da8.chunk.js": "/facebookClone/static/js/3.038e0da8.chunk.js",
+    "static/js/3.038e0da8.chunk.js.map": "/facebookClone/static/js/3.038e0da8.chunk.js.map",
+    "index.html": "/facebookClone/index.html",
+    "static/css/main.292a8af8.chunk.css.map": "/facebookClone/static/css/main.292a8af8.chunk.css.map",
+    "static/js/2.aae9273b.chunk.js.LICENSE.txt": "/facebookClone/static/js/2.aae9273b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8b4a68c.js",
-    "static/css/2.615abbca.chunk.css",
-    "static/js/2.97c41fb5.chunk.js",
-    "static/css/main.4d3050fa.chunk.css",
-    "static/js/main.b26a198d.chunk.js"
+    "static/js/runtime-main.08722042.js",
+    "static/js/2.aae9273b.chunk.js",
+    "static/css/main.292a8af8.chunk.css",
+    "static/js/main.dfd4c12f.chunk.js"
   ]
 }
